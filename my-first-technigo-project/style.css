@@ -1,6 +1,7 @@
 h1{
   color:red;
   font-size:52px;
+  background-color: aqua;
 }
 h2{
   color:hotpink;
@@ -10,6 +11,11 @@ h2{
 .top-heading{
   color:greenyellow;
   font-size:52px;
+  display: inline;
+  border: 2px dotted sandybrown;
+  padding: 10px;
+  margin: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .bottom-heading{
@@ -21,6 +27,9 @@ h2{
   background-color: grey;
   padding: 20px;
   width: 400px;
+  border: 20px solid;
+  padding: 4px;
+  margin: 20px;
 }
 
 .grey-box img{
