@@ -1,0 +1,29 @@
+h1{
+  color:red;
+  font-size:52px;
+}
+h2{
+  color:hotpink;
+  font-size:24px;
+}
+
+.top-heading{
+  color:greenyellow;
+  font-size:52px;
+}
+
+.bottom-heading{
+  color:purple;
+  font-size:24px;
+}
+
+.grey-box{
+  background-color: grey;
+  padding: 20px;
+  width: 400px;
+}
+
+.grey-box img{
+  width: 100%;
+  
+}
