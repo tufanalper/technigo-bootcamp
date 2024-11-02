@@ -1,0 +1,13 @@
+input {
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
