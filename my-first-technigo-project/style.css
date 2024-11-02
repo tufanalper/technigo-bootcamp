@@ -9,7 +9,7 @@ h2{
 }
 
 .top-heading{
-  color:greenyellow;
+  color:rgb(92, 47, 255);
   font-size:52px;
   display: inline;
   border: 2px dotted sandybrown;
@@ -27,12 +27,23 @@ h2{
   background-color: grey;
   padding: 20px;
   width: 400px;
+  height: auto;
   border: 20px solid;
   padding: 4px;
   margin: 20px;
 }
 
-.grey-box img{
-  width: 100%;
-  
+/* General img styles */
+img {
+  max-width: 30%; /* Scale down to fit the container */
+  height: auto; /* Maintain aspect ratio */
 }
+
+@media (min-width: 501px) {
+  /* For screens wider than 500px */
+  .grey-box {
+    width: 90%;
+    background-color: lightgrey;
+  }
+}
+
